@@ -46,19 +46,19 @@ class _BottomNavBarState extends State<BottomNavBar> {
           BottomNavigationBarItem(
               icon: Icon(Icons.search_outlined),
               activeIcon: Icon(Icons.search),
-              label: 'Home'
+              label: 'Search'
           ),
 
           BottomNavigationBarItem(
-              icon: Icon(Icons.airplane_ticket_outlined),
-              activeIcon: Icon(Icons.airplane_ticket),
-              label: 'Home'
+              icon: Icon(Icons.local_movies_outlined),
+              activeIcon: Icon(Icons.local_movies),
+              label: 'Tickets'
           ),
 
           BottomNavigationBarItem(
               icon: Icon(Icons.person_outline),
               activeIcon: Icon(Icons.person),
-              label: 'Home'
+              label: 'Profile'
           ),
 
         ]

@@ -7,6 +7,7 @@ class AppStyles {
   static Color bgColor = Colors.white70;
   static Color ticketBlue = const Color(0xFF1E293B);
   // 0xFFFE5F55
+  static Color ticketGreen = Colors.greenAccent;
 
 
   static TextStyle textStyle = TextStyle(
@@ -29,5 +30,10 @@ class AppStyles {
   static TextStyle headLineStyle3 = const TextStyle(
       fontSize: 17,
       fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle headLineStyle4 = const TextStyle(
+    fontSize: 13,
+    fontWeight: FontWeight.w500,
   );
 }

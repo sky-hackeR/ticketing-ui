@@ -18,7 +18,7 @@ class AppLayoutBuilderWidget extends StatelessWidget {
             height: 1,
             child: DecoratedBox(
                 decoration: BoxDecoration(
-                  color: Colors.black,
+                  color: Colors.red,
                 )
             ),
             ),

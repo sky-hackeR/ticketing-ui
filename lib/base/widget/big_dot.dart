@@ -8,12 +8,8 @@ class BigDot extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(3),
       decoration: BoxDecoration(
-        border: Border.all(
-            width: 2.5, 
-            color: Colors.white
-        ),
+        border: Border.all(width: 2.5, color: Colors.white),
         borderRadius: BorderRadius.circular(20),
-
       ),
     );
   }

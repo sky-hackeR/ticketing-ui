@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reserver/base/widget/app_column_text_layout.dart';
 import 'package:reserver/base/widget/app_layout_builder_widget.dart';
 import 'package:reserver/base/widget/big_circle.dart';
 import 'package:reserver/base/widget/big_dot.dart';
@@ -132,64 +133,29 @@ class TicketView extends StatelessWidget {
                 children: [
                   // Show movie duration
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        "Now",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
+                      AppColumnTextLayout(
+                        alignment: CrossAxisAlignment.start,
+                          bottomText: "L12",
+                          topText: "Seat"
                       ),
 
-                      Expanded(child: Container()),
-
-                      Text(
-                        "Start Time",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
+                      AppColumnTextLayout(
+                          alignment: CrossAxisAlignment.center,
+                          bottomText: "19:22 PM",
+                          topText: "Time"
                       ),
 
-                      Expanded(child: Container()),
-
-                      Text(
-                        "Next",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
+                      AppColumnTextLayout(
+                          alignment: CrossAxisAlignment.end,
+                          bottomText: "Regular",
+                          topText: "Type"
                       ),
                     ],
                   ),
 
                   SizedBox(height: 3),
-                  // Show movie
-                  Row(
-                    children: [
-                      Text(
-                        "Seat: L12",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
-                      ),
-
-                      Expanded(child: Container()),
-
-                      Text(
-                        "19:22 PM",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
-                      ),
-
-                      Expanded(child: Container()),
-
-                      Text(
-                        "Seat: F49",
-                        style: AppStyles.headLineStyle3.copyWith(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ],
-                  ),
                 ],
               ),
             ),
